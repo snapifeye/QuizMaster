@@ -232,7 +232,7 @@
 				}
 
 				.myslider{
-					align:center;
+					align:center !important;
 
 					}
 
@@ -255,6 +255,8 @@
 						align:center;
 						width: 400px;
 						height: 400px;
+						padding: 0px !important;
+
 						}
 
 					.instaslider-wrapper{
@@ -278,7 +280,7 @@
 						align:center;
 						width: 349px;
 						height: 349px;
-						padding: 0px;
+						padding: 0px !important;
 
 						}
 
@@ -365,7 +367,6 @@
 		</script>
 
 	</head>
-	<body style="">
 
 		<div class="Heading">
 
@@ -375,30 +376,30 @@
 
 
 
-<div class="col-md-6"><div class="sidebar"><img src="https://sites.google.com/site/rgwickens/home/QuizmasterTriviaHeader.png" alt="Quizmaster Trivia" style="padding 50% 10% 0% 0%;">
-
-	</div></div class="col-md-6">
-
-	<div class="col-md-6" style="padding:5% 0% 0% 30%;">
-
-		<div class="myslider"></div>
-
-			<script src="js/jquery.js"></script>
-			<script src="js/instaslider.jquery.js"></script>
-			<script>
-
-				$('.myslider').instaSlider({
-					clientID: 'a164a0f6607c4aca9e0e4dff13937277',
-					access_token: '721386715.a164a0f.a42f9e7d19904a9db685ac18bf29cdcb',
-					search: 'DrinkWhileYouThink',
-					auto: true,
-					limit:100,
-					Delay: 0,
-				});
+    <div class="col-xs-6"><div class="sidebar"><img src="https://sites.google.com/site/rgwickens/home/QuizmasterTriviaHeader.png" alt="Quizmaster Trivia" style="padding 50% 10% 0% 0%; width:100%;height:auto;">
+    </div></div class="col-xs-6">
 
 
-			</script>
-	</div class="col-md-6">
+	  <div class="col-xs-6" style="padding:5% 0% 0% 30%;">
+    <div class="myslider"></div>
+
+						<script src="js/jquery.js"></script>
+						<script src="js/instaslider.jquery.js"></script>
+						<script>
+
+							$('.myslider').instaSlider({
+								clientID: 'a164a0f6607c4aca9e0e4dff13937277',
+								access_token: '721386715.a164a0f.a42f9e7d19904a9db685ac18bf29cdcb',
+								search: 'DrinkWhileYouThink',
+								auto: true,
+								limit:100,
+								Delay: 0,
+							});
+
+
+						</script>
+	  </div class="col-xs-6">
+
 </div>
 
 	</body>
